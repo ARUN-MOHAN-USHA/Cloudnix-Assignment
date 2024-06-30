@@ -1,0 +1,36 @@
+.card {
+    width: 20rem;
+    margin: 10px;
+    border-radius: 10px 10px;
+    
+}
+
+.card-img-top {
+    border-radius: 0;
+    
+}
+
+.btn:checked {
+    background-color: rgb(48, 165, 42);
+}
+
+
+#myButton {
+    display: none;
+}
+
+
+.custom-checkbox {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #6d37ec;
+    border-radius: 5px;
+    color: rgb(5, 5, 20); 
+}
+
+/* Show the custom checkbox when button is clicked */
+#myButton:checked+.custom-checkbox {
+    background-color: #ed1818;
+    color: white;
+}
